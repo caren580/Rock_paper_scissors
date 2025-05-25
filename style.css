@@ -2,7 +2,10 @@
   margin: 0;
   padding: 0;
   font-family: "Press Start 2P", system-ui;
-  background-color: #75d232;
+ 
+}
+body{
+     background-color: #75d232;
 }
 .top-bar {
   display: flex;
@@ -30,11 +33,13 @@
   border: 2px dashed black;
   padding: 2rem;
   font-size: 5rem;
+
 }
 .score {
   background-color: #e8e819;
   padding: 1rem 2rem;
   text-align: center;
+
 }
 
 .score h2 {
@@ -56,6 +61,8 @@
   align-items: center;
   border: 2px dashed black;
   padding: 1rem;
+  background-color: white;
+ 
 }
 .emoji-option {
   font-size: 3rem;
